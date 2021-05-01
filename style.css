@@ -1,0 +1,39 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  height: 50vh;
+}
+
+button {
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.palindromeContainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  height: 30vh;
+}
+
+.palinDiv {
+  padding-left: 30px;
+}
+
+.RomanContainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  height: 50vh;
+}
+
+.romanDiv {
+  padding-left: 30px;
+}

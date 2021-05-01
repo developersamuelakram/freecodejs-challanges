@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <section class="mainContainer">
+
+      <h1>Validations</h1>
+      <div class="usNumberValidator">
+        <form>
+          <input placeholder="Enter US number" id="usNumber" />
+          <button type="button" class="btn" id="usbtn">Check</button>
+        </form>
+        <p>Accepted Formats</p>
+        <ul>
+          <li><a>1555555555</a></li>
+          <li><a>1555-555-5555</a></li>
+          <li><a>5555555555</a></li>
+
+        </ul>
+        <p id="usMessage">Check if Number is Valid</p>
+
+      </div>
+
+      <div class="emailValidator">
+        <form>
+          <input placeholder="Enter Email to Check" id="checkEmail" />
+          <button type="button" class="btn" id="emailBtn">Check</button>
+        </form>
+        <p>Accepted Formats</p>
+        <ul>
+          <li><a>Make sure there is @</a></li>
+          <li><a>Lower or uppercase</a></li>
+          <li><a>Underscore, special characters accepted</a></li>
+
+        </ul>
+        <p id="emailMessage">Check if email is valid</p>
+      </div>
+
+      <div class="thValidator">
+        <form>
+          <input placeholder="Enter TH number to Check" id="checkTHNumber" />
+          <button type="button" class="btn" id="thBtn">Check</button>
+        </form>
+
+        <p>Accepted Formats</p>
+        <ul>
+          <li><a>+66-424-55555</a></li>
+          <li><a>+6642455555</a></li>
+          <li><a>0642455555</a></li>
+          <li><a>06-424-55555</a></li>
+
+
+        </ul>
+        <p id="thMessage">Check if TH number is valid</p>
+      </div>
+
+      <div class="pwValidator">
+        <form>
+          <input placeholder="Enter Password to Check" id="checkPw" />
+          <button type="button" class="btn" id="pwBtn">Check</button>
+        </form>
+
+        
+        <p>Accepted Formats</p>
+        <ul>
+          <li><a>First Letter must be capital</a></li>
+          <li><a>Need Two Numbers at the end</a></li>
+          <li><a>Need some special characters</a></li>
+          <li><a>Sam-$10 is ✔</a></li>
+
+
+        </ul>
+
+        <p id="pwMessage">Check if Password is valid</p>
+      </div>
+
+
+    </section>
+
+    <section class="palindromeContainer">
+
+      <h1>Palindrome</h1>
+
+      <div class="palinDiv">
+          <form>
+          <input placeholder="Enter word to Check" id="checkPalindrome" />
+          <button type="button" class="btn" id="btnPalin">Check</button>
+        </form>
+
+
+        <p id="palinMessage">Check if word is Palindrome</p>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="RomanContainer">
+
+      <h1>Romanized</h1>
+
+      <div class="romanDiv">
+          <form>
+          <input placeholder="Convert Number to Roman" id="checkRoman" />
+          <button type="button" class="btn" id="btnRoman">Check</button>
+        </form>
+
+
+        <p id="romanMessage">Result:</p>
+
+      </div>
+
+    </section>
+
+
+
+
+
+    <script src="telephonevalidator.js"></script>
+  </body>
+</html>
